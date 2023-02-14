@@ -5,13 +5,13 @@ This script processes one or more protein sequences in FASTA format using Alphaf
 
 ## Requirements
 
--   Alphafold: This script assumes that Alphafold is already installed on the system and can be run from the command line.
+-   Alphafold: This script assumes that Alphafold is already installed on the system and can be run from the command line. It can be installed following the instructions at [https://github.com/deepmind/alphafold]
 -   Nextflow: Nextflow can be installed by following the instructions at [https://www.nextflow.io/](https://www.nextflow.io/).
 -   Python 3: This script requires Python 3 to be installed on the system.
 
 ## Usage
 
-- `python predict_structure.py input output workflow` 
+    python predict_structure.py input output workflow
 
 - `input` can be a single FASTA file or a directory containing multiple FASTA files.
 
